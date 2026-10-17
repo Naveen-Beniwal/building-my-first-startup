@@ -38,21 +38,21 @@ flowchart TD
 
     subgraph ParsingLayer["Robust Parsing & Sanitization"]
         RawOutput["Raw Model Response"]
-        RegexExtractor["Markdown Block Extractor<br/>(Strip ```json fences)"]
+        RegexExtractor["Markdown Block Extractor<br/>(Strip JSON code fences)"]
         JSONValidator["JSON Schema Validator"]
         FinalPayload["Sanitized Client JSON Payload"]
     end
 
     %% Flow
     UserRequest --> DedupCheck
-    DedupCheck --"Duplicate in Flight"--> AttachExisting
-    DedupCheck --"New Request"--> KeySelector
+    DedupCheck -->|Duplicate in Flight| AttachExisting
+    DedupCheck -->|New Request| KeySelector
     KeySelector <--> HealthTable
     KeySelector --> GeminiPrimary
-    GeminiPrimary --"Success (200 OK)"--> RawOutput
-    GeminiPrimary -.->"429 Rate Limit / Timeout"--> CircuitBreaker
-    CircuitBreaker --"Trigger Cooldown"--> HealthTable
-    CircuitBreaker --"Failover"--> GroqSecondary
+    GeminiPrimary -->|Success 200 OK| RawOutput
+    GeminiPrimary -.->|429 Rate Limit / Timeout| CircuitBreaker
+    CircuitBreaker -->|Trigger Cooldown| HealthTable
+    CircuitBreaker -->|Failover| GroqSecondary
     GroqSecondary --> RawOutput
     RawOutput --> RegexExtractor --> JSONValidator --> FinalPayload
 ```
