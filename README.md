@@ -229,7 +229,7 @@ If you've read this far, thank you. I would genuinely value criticism—especial
 
 **Naveen Beniwal** · Final-year Computer Engineering, NIT Kurukshetra · Summer 2026 software engineering intern at SAP · Independent builder of CVInsight.
 
-[GitHub](https://github.com/Naveen-Beniwal) · [LinkedIn](https://www.linkedin.com/in/naveen-beniwal) · [Website](https://www.cvinsight.me)
+[GitHub](https://github.com/Naveen-Beniwal) · [LinkedIn](www.linkedin.com/in/naveen-beniwal-40b719313) · [Website](https://www.cvinsight.me)
 
 **Repository and contributions:** This is a public documentation and product showcase, not the complete application source. Suggestions, documentation improvements, and sanitized bug reports are welcome. Please do not submit personal resumes, credentials, or exploit details in public issues. Report sensitive security concerns privately.
 
