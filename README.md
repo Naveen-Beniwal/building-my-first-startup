@@ -523,7 +523,7 @@ Especially if something feels confusing, inaccurate, or unnecessary.
 
 - **Product:** https://www.cvinsight.me
 - **GitHub:** https://github.com/Naveen-Beniwal
-- **LinkedIn:** https://www.linkedin.com/in/naveen-beniwal
+- **LinkedIn:** www.linkedin.com/in/naveen-beniwal-40b719313
 - **Interview Stories:** https://www.cvinsight.me/interview-stories
 - **Chrome Extension:** [View Extension](https://chromewebstore.google.com/detail/ebcdnlkiacglidmohjonnidmgdbfghdo)
 
