@@ -1,14 +1,13 @@
-
 <div align="center">
 
 # How I Built My First Startup as a College Student
 
-### From my first ₹9 customer to building and operating an AI career platform.
+### From my first ₹9 customer to building and operating an AI career platform with 3700+ users from 18+ countries and 850+ colleges and universities.
 
 **The engineering, mistakes, failures, and lessons along the way.**
 
 **Naveen Beniwal**  
-Final-Year Computer Engineering Student @ NIT Kurukshetra  
+Final-Year Computer Engineering Student @ NIT Kurukshetra  (9.38 CGPA)
 Former Software Engineering Intern @ SAP
 
 [![Live Product](https://img.shields.io/badge/Live_Product-CVInsight-6366f1?style=flat-square)](https://www.cvinsight.me)
@@ -58,7 +57,8 @@ I'm still figuring things out. That's part of the story too.
 
 ## About This Repository
 
-This is a public **startup journey and engineering journal**, not just a promotional README.
+This is a public **startup journey and engineering journal** which contains worth 1+ year of my experience regarding startup foundation and working.
+Please Star it if it helps so that it can reach more people in future.
 
 The main document tells the story. The technical documentation explores individual engineering decisions in greater detail.
 
@@ -71,7 +71,6 @@ The production application is proprietary. This repository is not presented as i
 | [System Architecture](docs/ARCHITECTURE.md) | Application architecture, design decisions, document processing, and infrastructure trade-offs |
 | [Resilient AI Routing](docs/AI_ROUTING.md) | Multi-provider fallback, quota management, request deduplication, and structured output |
 | [Security Postmortems](docs/SECURITY_POSTMORTEM.md) | Production incidents, root causes, defensive improvements, and lessons learned |
-| [Scoring Engine](docs/SCORING_ENGINE.md) | Resume assessment methodology, evaluation dimensions, and limitations |
 | [Sustainability & Unit Economics](docs/SUSTAINABILITY.md) | AI inference costs, infrastructure expenses, free allowances, and pricing decisions |
 
 ---
@@ -345,25 +344,25 @@ The original resume tool gradually developed into several connected workflows.
 
 ### Resume Studio
 
-![Resume Studio](assets/apex_preview_image.png)
+![Resume Studio](apex_preview_image.png)
 
 [Explore Resume Studio →](https://www.cvinsight.me/resume-preview)
 
 ### Resume Intelligence
 
-![Resume Intelligence](assets/ai_professional_summary.png)
+![Resume Intelligence](ai_professional_summary.png)
 
 [Try Resume Analysis →](https://www.cvinsight.me/ai-resume-analyzer)
 
 ### Job Description Matching
 
-![Job Tailoring](assets/job_tailored.png)
+![Job Tailoring](job_tailored.png)
 
 [Explore Job Tailoring →](https://www.cvinsight.me/job-tailored-resume)
 
 ### Interview Preparation
 
-![Interview Preparation](assets/company_specific_preparation.png)
+![Interview Preparation](company_specific_preparation.png)
 
 [Read Interview Stories →](https://www.cvinsight.me/interview-stories)
 
@@ -419,13 +418,8 @@ How I approached common AI reliability challenges:
 
 A sanitized account of production security incidents and what they taught me about operating an internet-facing application.
 
-## 4. Resume Scoring Engine
 
-**[Read SCORING_ENGINE.md →](docs/SCORING_ENGINE.md)**
-
-The reasoning behind the advisory assessment system, including its evaluation dimensions, validation considerations, and limitations.
-
-## 5. Sustainability and Unit Economics
+## 4. Sustainability and Unit Economics
 
 **[Read SUSTAINABILITY.md →](docs/SUSTAINABILITY.md)**
 
